@@ -20,7 +20,7 @@ applications:
           allow: true
 
     # 应用程序的永久性磁盘的大小（单位为MB）
-    disk: 512
+    # disk: 512    磁盘现在只在 services 里配置
 
     # 设置用于读写日志的本地挂载
     mounts:
