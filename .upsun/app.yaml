@@ -1,6 +1,5 @@
 applications:
-  app:
-    name: "ll_project"
+  ll_project:
     type: "python:3.14"
 
     relationships:
