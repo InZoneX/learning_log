@@ -4,4 +4,4 @@
 services:
   db:
     type: postgresql:16
-    size: 1  # 1GB
+    disk: "1024"
